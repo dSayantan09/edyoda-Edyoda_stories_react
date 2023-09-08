@@ -1,0 +1,63 @@
+.mainDiv {
+    height: auto;
+    width: 70%;
+    margin: 30px auto auto auto;
+  }
+  .cardDiv {
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    height: 430px;
+    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    border: 1px solid rgba(0, 168, 255, 0.3);
+    background-color: #fff;
+  }
+  .cardDiv:hover {
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.39);
+  }
+  .img {
+    display: flex;
+    position: absolute;
+    width: 100%;
+  }
+  .textContainer {
+    position: absolute;
+    padding: 20px;
+    text-align: left;
+    margin-top: 200px;
+  }
+  .h2 {
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 1.14;
+    color: #000;
+    font-family: Raleway;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+  }
+  .h3 {
+    font-size: 0.9em;
+    font-weight: 500;
+    line-height: 2;
+  }
+  .author {
+    color: #0096ff;
+  }
+  .p {
+    opacity: 0.5;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: 0.35px;
+    text-align: left;
+    color: #000;
+    margin: 0.3em 0;
+    white-space: pre-wrap;
+  }
+  
